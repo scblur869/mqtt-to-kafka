@@ -12,7 +12,7 @@ FROM alpine:latest
 ENV TOPIC=/test/topic1
 ENV QOS=0
 ENV BROKER=192.168.1.30
-ENV USEKAKFA=false
+ENV USEKAFKA=false
 ENV KAFKAURL=localhost:9092,localhost:9093,localhost:9094
 ENV KAFKATOPIC=/test/topic1
 ENV PORT=1883
