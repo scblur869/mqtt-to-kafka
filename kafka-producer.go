@@ -28,7 +28,7 @@ func getKafkaWriter(kafkaURL, topic string) *kafka.Writer {
 */
 
 func WriteEvent(topic string, payload string) (string, error) {
-	kafkaWriter := getKafkaWriter(os.Getenv("KAKFAURL"), topic)
+	kafkaWriter := getKafkaWriter(os.Getenv("KAFKAURL"), topic)
 	defer kafkaWriter.Close()
 	msg := kafka.Message{
 		Key:   []byte(topic),
