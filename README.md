@@ -8,7 +8,7 @@ based on topic to a Kafka instance. Its intended to be highly performant with a 
 ENV TOPIC=/test/topic1
 ENV QOS=0
 ENV BROKER=192.168.1.30
-ENV USEKAKFA=false
+ENV USEKAFKA=false
 ENV KAFKAURL=localhost:9092,localhost:9093,localhost:9094
 ENV KAFKATOPIC=/test/topic1
 ENV PORT=1883
