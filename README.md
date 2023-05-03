@@ -19,5 +19,5 @@ ENV WRITESTDOUT=true
 ```
 
 ### TODO
-- ADD Kakfa and MQTT TLS support
+- ADD Kafka and MQTT TLS support
 - 
