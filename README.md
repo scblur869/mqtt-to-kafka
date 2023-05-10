@@ -1,4 +1,4 @@
-# MQTT2Kafka
+# MQTT-to-Kafka
 ## idea behind this
 To have a microservice running on the edge that subscribes to an existing MQTT broker and routes messages
 based on topic to a Kafka instance. Its intended to be highly performant with a tiny footprint and to run as a container.
